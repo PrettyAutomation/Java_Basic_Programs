@@ -1,0 +1,49 @@
+git init: Initializes a new Git repository in the current directory.
+
+git clone <repository URL>: Copies a remote repository to your local machine, creating a new directory.
+
+git status: Shows the status of your working directory, including changes that are staged or not.
+
+git add <file>: Stages changes in a file for the next commit.
+
+git commit -m "<commit message>": Commits the staged changes with a descriptive message.
+
+git diff: Shows the differences between the working directory and the last commit.
+
+git log: Displays the commit history, including commit messages and authors.
+
+git branch: Lists all local branches and shows the current branch with an asterisk.
+
+git branch <branch-name>: Creates a new branch with the specified name.
+
+git checkout <branch-name>: Switches to the specified branch.
+
+git merge <branch-name>: Merges changes from the specified branch into the current branch.
+
+git pull: Fetches changes from a remote repository and merges them into the current branch.
+
+git push: Pushes your local changes to a remote repository.
+
+git remote add <remote-name> <remote-URL>: Adds a new remote repository.
+
+git remote -v: Lists all configured remote repositories.
+
+git fetch <remote-name>: Fetches changes from a remote repository without merging them.
+
+git reset <commit>: Unstages changes while keeping them in your working directory.
+
+git stash: Temporarily saves changes that are not ready for committing.
+
+git tag <tag-name>: Creates a lightweight tag at the current commit.
+
+git rebase <branch-name>: Moves or combines commits from one branch to another.
+
+git cherry-pick <commit>: Applies a specific commit from one branch to another.
+
+git blame <file>: Shows the commit and author information for each line in a file.
+
+git remote rm <remote-name>: Removes a remote repository configuration.
+
+git rm <file>: Removes a file from both the working directory and the Git repository.
+
+git mv <old-filename> <new-filename>: Renames a file and stages the change.
