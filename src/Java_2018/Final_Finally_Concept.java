@@ -1,6 +1,6 @@
 package Java_2018;
 
-//3. to provent the inheritance a fianl class can not be inheritade
+//3. to prevent the inheritance a final class can not be implemented
 
 public final class Final_Finally_Concept {
 
@@ -15,22 +15,19 @@ public final class Final_Finally_Concept {
 	    
     }
 	
-	 //2. To prevant the Method overriding
+	 //2. To prevent the Method overriding
 	
 	public final void start(){
 		
 		System.out.println("i am inside the final method");
 	}
 	
-	// Finally keyword always followed with try and catch block
+	// Finally, keyword always followed with try and catch block
 	
 	// it is generally used to close the db connection
-	// to close or quit the brownser in case of selenium program
+	// to close or quit the browser in case of selenium program
 	
 	public static void division(){
-		
-	
-		
 		try
 		{
 		  System.out.println("i am in try block");
@@ -41,7 +38,7 @@ public final class Final_Finally_Concept {
 			
 		} finally {
 			
-			System.out.println("Exectute the finally block instead of any exception occurence");
+			System.out.println("Execute the finally block instead of any exception occurrence");
 			
 		}
 		

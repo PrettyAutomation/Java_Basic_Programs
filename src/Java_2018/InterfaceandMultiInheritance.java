@@ -4,8 +4,8 @@ public class InterfaceandMultiInheritance {
 
 	public static void main(String[] args) {
 		
-		System.out.println("access the static varable by its interfacename ---  " + USBCBank.min_balance);
-		System.out.println("access the static varable by its interfacename ---  " + BrazilBank.customerid + "\n");
+		System.out.println("access the static variable by its interface ---  " + USBCBank.min_balance);
+		System.out.println("access the static variable by its interface ---  " + BrazilBank.customerid + "\n");
 	
 		
 		// the value of interface variable can not be change it is bydefault final

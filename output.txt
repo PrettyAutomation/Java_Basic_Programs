@@ -47,3 +47,9 @@ git remote rm <remote-name>: Removes a remote repository configuration.
 git rm <file>: Removes a file from both the working directory and the Git repository.
 
 git mv <old-filename> <new-filename>: Renames a file and stages the change.
+
+
+public: Accessible from anywhere.
+private: Accessible only within the same class.
+protected: Accessible within the same class, same package, and subclasses.
+Default (Package-Private): Accessible within the same class and same package.
